@@ -38,11 +38,4 @@ public class HomeController {
 		return picMap;
 
 	}
-	public Map<String,Object> selectCarouselPic227() {
-		Map<String, Object> picMap = new HashMap<String, Object>();
-		List<CarouselImg> carouselImgList = homeService.selectCarouselPic();
-		picMap.put("data", carouselImgList);
-		return picMap;
-		
-	}
 }
