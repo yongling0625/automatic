@@ -18,7 +18,6 @@ public class HomeController {
 	@Autowired
 	private HomeService	homeService;
 	
-	
 	@RequestMapping("/home")
 	public String jumpToHomePage(ModelMap map) {
 		List<CarouselImg> carouselImgList = homeService.selectCarouselPic();
