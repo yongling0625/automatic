@@ -38,7 +38,7 @@ public class HomeController {
 		return picMap;
 
 	}
-	public Map<String,Object> selectCarouselPic2() {
+	public Map<String,Object> selectCarouselPic2227() {
 		Map<String, Object> picMap = new HashMap<String, Object>();
 		picMap.put("title", "轮播图片");
 		picMap.put("id", 1);
