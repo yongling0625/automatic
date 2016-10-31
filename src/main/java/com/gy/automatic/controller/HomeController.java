@@ -40,9 +40,6 @@ public class HomeController {
 	}
 	public Map<String,Object> selectCarouselPic227() {
 		Map<String, Object> picMap = new HashMap<String, Object>();
-		picMap.put("title", "轮播图片");
-		picMap.put("id", 1);
-		picMap.put("start", "轮播图片");
 		List<CarouselImg> carouselImgList = homeService.selectCarouselPic();
 		picMap.put("data", carouselImgList);
 		return picMap;
