@@ -36,6 +36,5 @@ public class HomeController {
 		List<CarouselImg> carouselImgList = homeService.selectCarouselPic();
 		picMap.put("data", carouselImgList);
 		return picMap;
-
 	}
 }
