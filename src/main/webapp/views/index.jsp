@@ -1,4 +1,4 @@
-<%@ page language="java" pageEncoding="UTF-8" %>
+<%@page language="java" pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%
@@ -47,8 +47,5 @@
     </div>
 </div>
 <jsp:include page="/common/footer.jsp"></jsp:include>
-<script type="text/javascript" src="static/jQuery/jquery-1.12.4.min.js"></script>
-<script type="text/javascript" src="static/bootstrap/js/bootstrap.min.js"></script> 
-<script type="text/javascript" src="static/baseJs/base.js"></script>
  </body>
 </html>
