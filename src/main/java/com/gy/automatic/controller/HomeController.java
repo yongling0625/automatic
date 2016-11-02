@@ -27,5 +27,10 @@ public class HomeController {
 		map.addAttribute("carouselImgList", carouselImgList);
 		return "index";
 	}
+	
+	@RequestMapping("/contactUs")
+	public String contactUsPage() {
+		return "contactUs";
+	}
 
 }
