@@ -7,7 +7,7 @@
 		<ul class="nav navbar-nav">
 			<li><a href="index">首页</a></li>
 			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="about">关于广用</a>
+				<a class="dropdown-toggle" data-toggle="dropdown">关于广用</a>
 				<ul class="dropdown-menu" role="menu">
 					<li><a href="about">关于广用</a></li>
 					<li><a href="#">经营理念</a></li>

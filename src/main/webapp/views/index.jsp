@@ -16,6 +16,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>Document</title>
  <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
+ <link rel="stylesheet" href="static/base/base.css">
  </head>
  <body>
 <jsp:include page="/common/header.jsp"></jsp:include>
