@@ -7,7 +7,7 @@ import com.gy.automatic.model.Product;
 
 public interface ProductService {
 
-	List<Product> selectProductList();
+	List<Product> selectProductList(Integer categoryId);
 
 
 }
