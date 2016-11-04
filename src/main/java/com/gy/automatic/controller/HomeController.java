@@ -28,9 +28,9 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping("/contactUs")
+	@RequestMapping("/contactUsMain")
 	public String contactUsPage() {
-		return "contactUs";
+		return "contactUsMain";
 	}
 
 }

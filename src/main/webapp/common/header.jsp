@@ -30,7 +30,7 @@
 			<li><a href="/demo/">资料下载</a></li>
 			<li><a href="/demo/">应用案例</a></li>
 			<li><a href="/demo/">合作伙伴</a></li>
-			<li><a href="contactUs">联系我们</a></li>
+			<li><a href="contactUsMain">联系我们</a></li>
 		</ul>
 	</div>
 </nav>
