@@ -33,4 +33,8 @@ public class HomeController {
 		return "contactUsMain";
 	}
 
+	@RequestMapping("/partner")
+	public String partner() {
+		return "partner";
+	}
 }

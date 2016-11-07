@@ -26,10 +26,10 @@
 				</ul>
 			</li>
 			<li><a href="/demo/">产品选用</a></li>
-			<li><a href="/demo/">协助设计</a></li>
+			<li><a href="http://www.apexdyna.com/zh/dynamax.aspx">协助设计</a></li>
 			<li><a href="/demo/">资料下载</a></li>
 			<li><a href="/demo/">应用案例</a></li>
-			<li><a href="/demo/">合作伙伴</a></li>
+			<li><a href="partner">合作伙伴</a></li>
 			<li><a href="contactUsMain">联系我们</a></li>
 		</ul>
 	</div>
