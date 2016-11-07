@@ -1,5 +1,13 @@
- p{text-indent:2em} 
- .navbar {
-  margin-bottom: 0px;  
+p {
+	text-indent: 2em
 }
-.productDiv{border: 1px solid #f2f2f2;margin: 15px;}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.productDiv {
+	border: 1px solid #f2f2f2;
+	margin: 15px;
+	padding: 20px 15px 0px 15px;
+}

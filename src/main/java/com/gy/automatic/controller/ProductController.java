@@ -12,15 +12,24 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.gy.automatic.model.Product;
 import com.gy.automatic.service.ProductService;
 @Controller
+@RequestMapping("/product")
 public class ProductController {
 	@Autowired
 	private ProductService productService;
 	
-	@RequestMapping(value="/product/{categoryId}",method=RequestMethod.GET)
+	@RequestMapping(value="/{categoryId}",method=RequestMethod.GET)
 	public String selectProductList(@PathVariable Integer categoryId,ModelMap map){
 		List<Product> productList = productService.selectProductList(categoryId);
 		map.addAttribute("productList", productList);
+		map.addAttribute("product_cate", categoryId);
 		return "product";
 	}
+	
+	@RequestMapping("")
+	public String addProduct(){
+		
+		return "";
+	}
+	
 
 }

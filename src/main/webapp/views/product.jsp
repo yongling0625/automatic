@@ -26,13 +26,19 @@
 				<div class="col-md-2">
 					<h1>PRODUCT</h1>
 					<ul class="nav nav-pills nav-stacked">
-						<li class="active"><a href="product/1">减速机</a></li>
-						<li><a href="#">机械手臂</a></li>
-						<li><a href="#">动力刀塔</a></li>
-						<li><a href="#">齿轮齿条</a></li>
+						<li <c:if test="${product_cate == 1 }">class="active" </c:if>><a href="product/1">减速机</a></li>
+						<li <c:if test="${product_cate == 2 }">class="active" </c:if>><a href="product/2">机械手臂</a></li>
+						<li <c:if test="${product_cate == 3 }">class="active" </c:if>><a href="product/3">动力刀塔</a></li>
+						<li <c:if test="${product_cate == 4 }">class="active" </c:if>><a href="product/4">齿轮齿条</a></li>
 					</ul>
 				</div>
 				<div class="col-md-10">
+					<div>
+						<ol class="breadcrumb">
+						    <li><a href="#">产品中心</a></li>
+						    <li class="active">十一月</li>
+						</ol>
+					</div>
 					<c:forEach items="${productList }" var="product">
 						<div class="pull-left productDiv">
 							<img src="${product.imageAddress }" width="200" height="200">
