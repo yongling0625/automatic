@@ -25,7 +25,7 @@
 		<javaClientGenerator targetPackage="com.gy.automatic.mapper"
 			targetProject="src/main/java" type="XMLMAPPER" />
 
-		<table tableName="carousel_img">
+		<table tableName="resource">
 			<generatedKey column="id" sqlStatement="Mysql" identity="true" />
 		</table>
 	</context>
