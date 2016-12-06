@@ -25,11 +25,4 @@ public class ProductController {
 		return "product";
 	}
 	
-	@RequestMapping("")
-	public String addProduct(){
-		
-		return "";
-	}
-	
-
 }

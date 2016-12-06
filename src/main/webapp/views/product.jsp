@@ -33,16 +33,14 @@
 					</ul>
 				</div>
 				<div class="col-md-10">
-					<div>
-						<ol class="breadcrumb">
-						    <li><a href="#">产品中心</a></li>
-						    <li class="active">十一月</li>
-						</ol>
-					</div>
 					<c:forEach items="${productList }" var="product">
 						<div class="pull-left productDiv">
-							<img src="${product.imageAddress }" width="200" height="200">
-							<h5><c:out value="${product.productName }"></c:out></h5>
+							<div>
+								<img src="${product.imageAddress }" width="200" height="200">
+							</div>
+							<div class="bg-primary text-center">
+     							<c:out value="${product.productName }"></c:out>
+   							</div>
 						</div>
 					</c:forEach>
 				</div>
