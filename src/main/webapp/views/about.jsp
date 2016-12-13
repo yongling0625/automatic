@@ -18,9 +18,6 @@
 </head>
 <body>
 	<jsp:include page="/common/header.jsp"></jsp:include>
-	<div class="center-block">
-		<img class="img-responsive" alt="" src="static/images/aboutimage.jpg">
-	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
