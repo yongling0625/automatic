@@ -23,8 +23,8 @@ public class HomeController {
 	
 	@RequestMapping("/index")
 	public String jumpToHomePage(ModelMap map) {
-		List<CarouselImg> carouselImgList = homeService.selectCarouselPic();
-		map.addAttribute("carouselImgList", carouselImgList);
+//		List<CarouselImg> carouselImgList = homeService.selectCarouselPic();
+//		map.addAttribute("carouselImgList", carouselImgList);
 		return "index";
 	}
 	
