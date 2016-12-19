@@ -36,10 +36,10 @@
 					<c:forEach items="${productList }" var="product">
 						<div class="pull-left productDiv">
 							<div>
-								<img src="${product.imageAddress }" width="200" height="200">
+								<a href="product/${product.categoryId }/${product.id}"><img src="${product.imageAddress }" width="200" height="200"></a>
 							</div>
 							<div class="bg-primary text-center">
-     							<c:out value="${product.productName }"></c:out>
+     							<h3><c:out value="${product.productName }"></c:out></h3>
    							</div>
 						</div>
 					</c:forEach>

@@ -25,4 +25,12 @@ public class ProductController {
 		return "product";
 	}
 	
+	@RequestMapping(value="/{categoryId}/{productId}")
+	public String selectProductListById(@PathVariable Integer productId,@PathVariable Integer categoryId,ModelMap map){
+		Product product = productService.selectProductById(productId);
+		map.addAttribute("product", product);
+		map.addAttribute("product_cate", categoryId);
+		return "productInfo";
+	}
+	
 }

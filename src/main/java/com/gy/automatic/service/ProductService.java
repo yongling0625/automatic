@@ -9,5 +9,7 @@ public interface ProductService {
 
 	List<Product> selectProductList(Integer categoryId);
 
+	Product selectProductById(Integer productId);
+
 
 }
