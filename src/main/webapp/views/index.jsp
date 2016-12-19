@@ -92,7 +92,8 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
-	<div class="container" style="background-image: url('static/images/indexImg/48644d01724a58f29ea3d.jpg');height: 200px;">
+	<hr>
+	<div class="container" style="background-image: url('static/images/indexImg/48644d01724a58f29ea3d.jpg');height: 200px;padding-top: 30px;">
 		<div class="row">
 			<div class="col-md-4 text-center">
 				<h4>专业销售各类机械零部件</h4>			
@@ -104,7 +105,7 @@
 					诚实守信
 				</h4>
 				<span>诚实守信是公司永恒的主题，互惠互利是合作的基础，优质服务是永恒不变的宗旨</span><br>
-				<span class="text-danger">Honest and trustworthy is the eternal theme of the company,
+				<span class="text-info">Honest and trustworthy is the eternal theme of the company,
 				mutual benefit is the basis for cooperation, quality service is the eternal purpose</span>
 			</div>
 			<div class="col-md-4">
@@ -112,7 +113,7 @@
 					科技创新
 				</h4>
 				<span>以高质高效为目标，以客户满意为宗旨，不断对产品优化改善，推陈出新</span><br>
-				<span class="text-danger">
+				<span class="text-info">
 					To high quality and efficiency as the goal, customer satisfaction for the purpose of continuous improvement of product optimization, innovation
 				</span>
 			</div>
@@ -129,8 +130,7 @@
 				<div class="col-md-4">
 					<div class="pull-left productDiv">
 						<div>
-							<img src="static/images/indexImg/x@at-fl.png" class="img-thumbnail">
-							
+							<a href="product/1"><img src="static/images/indexImg/x@at-fl.png" class="img-thumbnail"></a>
 						</div>
 						<div class="text-warning text-center">
     							高精度减速机
@@ -140,8 +140,7 @@
 				<div class="col-md-4">
 					<div class="pull-left productDiv">
 						<div>
-							<img src="static/images/indexImg/x@at-fl.png" class="img-thumbnail">
-							
+							<a href="product/2"><img src="static/images/indexImg/x@at-fl.png" class="img-thumbnail"></a>
 						</div>
 						<div class="text-warning text-center">
     							高精度减速机
@@ -151,8 +150,7 @@
 				<div class="col-md-4">
 					<div class="pull-left productDiv">
 						<div>
-							<img src="static/images/indexImg/x@at-fl.png" class="img-thumbnail">
-							
+							<a href="product/3"><img src="static/images/indexImg/x@at-fl.png" class="img-thumbnail"></a>
 						</div>
 						<div class="text-warning text-center">
     							高精度减速机
@@ -164,8 +162,7 @@
 				<div class="col-md-4">
 					<div class="pull-left productDiv">
 						<div>
-							<img src="static/images/indexImg/RackandPinion.png" class="img-thumbnail">
-							
+							<a href="product/4"><img src="static/images/indexImg/RackandPinion.png" class="img-thumbnail"></a>
 						</div>
 						<div class="text-warning text-center">
     							齿轮齿条
@@ -232,12 +229,12 @@
 			</div>
 	</div>
 	<div class="container text-center">
-  		<button type="button" class="btn btn-primary btn-lg">更多产品 <span class="glyphicon glyphicon-chevron-right"></span></button>
+  		<a href="product/1"><button type="button" class="btn btn-primary btn-lg">更多产品 <span class="glyphicon glyphicon-chevron-right"></span></button></a>
 	</div>
 	<div class="container text-center">
 		<hr/>
-		<h4>专业特色产品</h4>
-		<h5><span class="text-danger">视频影视资料</span></h5>
+		<h4>广用视频影视资料</h4>
+		<h5><span class="text-danger">Media Center</span></h5>
 	</div>
 	<div class="container">
 	   <div class="jumbotron">

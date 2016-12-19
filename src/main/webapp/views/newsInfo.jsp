@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="static/base/base.css">
 </head>
-<body style="background-color: #eeeeee">
+<body>
 	<jsp:include page="/common/header.jsp"></jsp:include>
 	<div class="container" style="background-color: #ffffff;height: 600px;">
 		<div class="row">
