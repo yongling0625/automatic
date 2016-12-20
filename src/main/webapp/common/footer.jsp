@@ -3,7 +3,7 @@
     <div class="container-fiuld navbar-inverse" style="padding: 20px;">
         <div class="row footer-top text-center">
             <div class="col-sm-2 col-lg-2">
-               <img class="img-responsive" alt="" src="static/images/logofooter.png">
+               <img class="img-circle img-responsive" alt="" src="static/images/logofooter.png">
             </div>
              <div class="col-sm-2 col-lg-2">
                 <ul class="list-unstyled">
