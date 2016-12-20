@@ -33,37 +33,36 @@
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
 				<img src="static/images/carousel/jiansuji.png">
-				<div class="carousel-caption"
+				<div class="carousel-caption text-info"
 					style="margin-left: 400px; margin-bottom: 120px;">
-					<h3>伺服马达减速机</h3>
-					<p>PⅡ / PⅡR 系列</p>
-					<p></p>
+					<h3 class="text-info">伺服马达减速机</h3>
+					<p class="text-info">PⅡ / PⅡR 系列</p>
 					<p>
-						<a href="#" class="btn btn-primary" role="button">了解更多</a>
+						<a href="product/1" class="btn btn-primary" role="button">了解更多<span class="glyphicon glyphicon-chevron-right"></span></a>
 					</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="static/images/carousel/jixieshou.png">
-				<div class="carousel-caption"
-					style="margin-left: 400px; margin-bottom: 120px;">
-					<h3>射出机专用机械手</h3>
-					<p>SH-DM 系列 </p>
-					<p>3 / 5轴伺服驱动CNC机器人</p>
+				<div class="carousel-caption text-info"
+					style="margin-right: 400px; margin-bottom: 120px;">
+					<h3 class="text-info">射出机专用机械手</h3>
+					<p class="text-info">SH-DM 系列 </p>
+					<p class="text-info">3 / 5轴伺服驱动CNC机器人</p>
 					<p>
-						<a href="#" class="btn btn-primary" role="button">了解更多</a>
+						<a href="product/2" class="btn btn-primary" role="button">了解更多<span class="glyphicon glyphicon-chevron-right"></span></a>
 					</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="static/images/carousel/donglidaota.png">
 				<div class="carousel-caption"
-					style="margin-left: 400px; margin-bottom: 120px;">
-					<h3>单马达动力刀塔</h3>
-					<p>VDI / BMT 動力刀塔</p>
-					<p>应用大尺寸超高强度三片式曲齿联轴器 提高定位与重复精度</p>
+					style="margin-right: 400px; margin-bottom: 120px;">
+					<h3 class="text-info">单马达动力刀塔</h3>
+					<p class="text-info">VDI / BMT 動力刀塔</p>
+					<p class="text-info">应用大尺寸超高强度三片式曲齿联轴器 提高定位与重复精度</p>
 					<p>
-						<a href="#" class="btn btn-primary" role="button">了解更多</a>
+						<a href="product/3" class="btn btn-primary" role="button">了解更多<span class="glyphicon glyphicon-chevron-right"></span></a>
 					</p>
 				</div>
 			</div>
@@ -71,11 +70,11 @@
 				<img src="static/images/carousel/chilunchitiao.png">
 				<div class="carousel-caption"
 					style="margin-left: 400px; margin-bottom: 120px;">
-					<h3>齿轮齿条</h3>
-					<p>VDI / BMT 動力刀塔</p>
-					<p>应用大尺寸超高强度三片式曲齿联轴器 提高定位与重复精度</p>
+					<h3 class="text-info">齿轮齿条</h3>
+					<p class="text-info">VDI / BMT 動力刀塔</p>
+					<p class="text-info">应用大尺寸超高强度三片式曲齿联轴器 提高定位与重复精度</p>
 					<p>
-						<a href="#" class="btn btn-primary" role="button">了解更多</a>
+						<a href="product/4" class="btn btn-primary" role="button">了解更多<span class="glyphicon glyphicon-chevron-right"></span></a>
 					</p>
 				</div>
 			</div>
@@ -93,7 +92,7 @@
 		</a>
 	</div>
 	<hr>
-	<div class="container" style="background-image: url('static/images/indexImg/48644d01724a58f29ea3d.jpg');height: 200px;padding-top: 30px;">
+	<div class="container" style="background-image: url('static/images/indexImg/chaoyang.jpg');height: 200px;padding-top: 30px;">
 		<div class="row">
 			<div class="col-md-4 text-center">
 				<h4>专业销售各类机械零部件</h4>			
@@ -140,20 +139,20 @@
 				<div class="col-md-4">
 					<div class="pull-left productDiv">
 						<div>
-							<a href="product/2"><img src="static/images/indexImg/x@at-fl.png" class="img-thumbnail"></a>
+							<a href="product/2"><img src="static/images/indexImg/donglidaota.png" class="img-thumbnail"></a>
 						</div>
 						<div class="text-warning text-center">
-    							高精度减速机
+    							动力刀塔
   						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="pull-left productDiv">
 						<div>
-							<a href="product/3"><img src="static/images/indexImg/x@at-fl.png" class="img-thumbnail"></a>
+							<a href="product/3"><img src="static/images/indexImg/jixieshou.png" class="img-thumbnail"></a>
 						</div>
 						<div class="text-warning text-center">
-    							高精度减速机
+    							机械手
   						</div>
 					</div>
 				</div>
