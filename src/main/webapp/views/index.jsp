@@ -197,30 +197,32 @@
 	<div class="container">
 	   <div class="jumbotron">
 	   		<div class="row">
-	   			<div class="col-md-6 media">
-	   				<video width="400" height="300" controls>
-					  <source src="static/video/vidou1.mp4" type="video/mp4">
-					</video>
+	   			<div class="col-xs-12 col-md-6 ">
+	   				<div class="media">
+		   				<video width="100%" height="100%" controls>
+						  <source src="static/video/vidou1.mp4" type="video/mp4">
+						</video>
+	   				</div>
 	   			</div>	
-	   			<div class="col-md-6">
+	   			<div class="col-xs-12 col-md-6">
 					<div class="row">
-						<div class="col-md-6 bg-warning">
+						<div class=" col-xs-6 col-md-6 bg-warning">
 	   						<h4>视频标题</h4>
 	   						<p>视频简介视频简介视频简介视频简介视频简介视频简介视频简介视频简介视频简介视频简介视频简介</p>
 	   					</div>	
-						<div class="col-md-6">
-	   						<video width="240" height="180" controls>
+						<div class="col-xs-6 col-md-6">
+	   						<video width="100%" height="100%" controls>
 							  <source src="static/video/vidou1.mp4" type="video/mp4">
 							</video>
 	   					</div>	
 					</div>	   			
 					<div class="row">
-						<div class="col-md-6">
-	   						<video width="240" height="180" controls>
+						<div class="col-xs-12 col-md-6">
+	   						<video width="100%" height="100%" controls>
 							  <source src="static/video/vidou1.mp4" type="video/mp4">
 							</video>
 	   					</div>	
-						<div class="col-md-6 bg-primary">
+						<div class="col-xs-12 col-md-6 bg-primary">
 	   						<h4>视频标题</h4>
 	   						<p>视频简介视频简介视频简介视频简介视频简介视频简介视频简介视频简介视频简介视频简介视频简介</p>
 	   					</div>	
