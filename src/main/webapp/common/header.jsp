@@ -40,5 +40,4 @@
     </div>  
   </div>  
 </div> 
-<div class="navbar-fixed-top" style="margin-top: 300px;"><a class="pull-right" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:42" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>   
-</div>
+<div class="navbar-fixed-top" style="margin-top: 300px;"><a class="pull-right" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:53" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></div>

@@ -1,6 +1,13 @@
 package com.gy.automatic.controller;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -30,4 +37,31 @@ public class DownloadController {
 		return "download";
 	}
 	
-}
+	@RequestMapping("showImage/{pic_addr}")
+    public void showImage(HttpServletRequest re,HttpServletResponse response,@PathVariable String pic_addr){//pic_addr:图片路径(d:\\upload\\a.jpg)
+		pic_addr = pic_addr.replace("_","\\\\");
+		pic_addr = pic_addr.replace("=",".");
+		response.setContentType("image/*");
+        FileInputStream fis = null; 
+        OutputStream os = null; 
+        try {
+         fis = new FileInputStream(pic_addr);
+         os = response.getOutputStream();
+            int count = 0;
+            byte[] buffer = new byte[1024*8];
+            while ( (count = fis.read(buffer)) != -1 ){
+             os.write(buffer, 0, count);
+             os.flush();
+            }
+        }catch(Exception e){
+         e.printStackTrace();
+        }finally {
+            try {
+				fis.close();
+				os.close();
+			} catch (IOException e) {
+			e.printStackTrace();
+			}
+        }
+		}
+	}

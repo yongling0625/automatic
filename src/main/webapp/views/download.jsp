@@ -38,12 +38,13 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-9">
-				<ul class="list-group">
-					<c:forEach items="${pdfList}" var="pdf">
-						<div><a href="download/${pdf.id}"><img alt="${pdf.title}" src="${pdf.pictureAddress}"><c:out value="${pdf.title}"></c:out></a></div>
-					</c:forEach>
-				</ul>
+			<div class="row">
+				<c:forEach items="${pdfList}" var="pdf">
+					<div class="col-xs-4 col-md-4" style="padding:30px;height:200px;width:170px">
+						<a href="download/${pdf.id}"><img class="img-thumbnail img-responsive" style="height:130px;width:100px" alt="${pdf.title}" src="showImage/${pdf.pictureAddress}"></a>
+						<div class="text-warning text-center" style="height:130px;width:100px"><a href="download/${pdf.id}"><strong> ${pdf.title}</strong></a></div>
+					</div>
+				</c:forEach>
 			</div>
 		</div>
 	</div>
