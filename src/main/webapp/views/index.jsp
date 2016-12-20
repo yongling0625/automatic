@@ -97,7 +97,7 @@
 			<div class="col-xs-4 col-md-4 text-center">
 				<h4>专业销售各类机械零部件</h4>			
 				<h4>高精密机械工业关键性组件</h4>			
-				<h4><span class="text-warning">专业为您服务</span></h4>
+				<h4><span class="text-danger">Professional for your service</span></h4>
 			</div>
 			<div class="col-xs-4 col-md-4 text-center">
 				<h4 class="text-info">

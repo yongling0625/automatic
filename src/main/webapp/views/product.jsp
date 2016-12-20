@@ -42,11 +42,9 @@
 					</ol>
 					<c:forEach items="${productList }" var="product">
 						<div class="pull-left productDiv">
-							<div>
-								<a href="product/${product.categoryId }/${product.id}"><img src="${product.imageAddress }" width="200" height="200"></a>
-							</div>
+							<a href="product/${product.categoryId }/${product.id}"><img class="img-thumbnail img-responsive" src="${product.imageAddress }" width="200" height="200"></a>
 							<div class="bg-primary text-center">
-     							<h3><c:out value="${product.productName }"></c:out></h3>
+     							<strong><c:out value="${product.productName }"></c:out></strong>
    							</div>
 						</div>
 					</c:forEach>
