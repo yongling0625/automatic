@@ -17,11 +17,9 @@
 <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="static/base/base.css">
 </head>
-<body style="background-color: #eeeeee">
+<body>
 	<jsp:include page="/common/header.jsp"></jsp:include>
-	<div style="position:relative; ">
-		<img class="img-responsive" alt="" src="static/images/homebanner4.jpg">
-		<div class="container" style="position:relative; background-color: #ffffff;margin-top: -100px;">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-2">
 					<h1>PRODUCT</h1>
@@ -45,7 +43,6 @@
 					</c:forEach>
 				</div>
 			</div>
-		</div>
 	</div>
 	<jsp:include page="/common/footer.jsp"></jsp:include>
 </body>
