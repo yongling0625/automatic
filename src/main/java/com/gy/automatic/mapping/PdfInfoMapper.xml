@@ -11,4 +11,15 @@
     <result column="picture_address" property="pictureAddress" jdbcType="VARCHAR" />
     <result column="type" property="type" jdbcType="VARCHAR" />
   </resultMap>
+  
+   <sql id="Base_Column_List">
+    id, title, pdf_address, picture_address, type
+  </sql>
+  
+  <select id="selectDownloadListByType" parameterType="java.lang.String" resultMap="BaseResultMap">
+  	select 
+  	<include refid="Base_Column_List"/> 
+  	from pdf_info
+  	where type = #{type,jdbcType=VARCHAR}
+  </select>
 </mapper>

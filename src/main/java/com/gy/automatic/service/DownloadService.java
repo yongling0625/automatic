@@ -9,4 +9,6 @@ public interface DownloadService {
 
 	List<PdfInfo> selectDownloadList();
 
+	List<PdfInfo> selectDownloadListByType(String id);
+
 }

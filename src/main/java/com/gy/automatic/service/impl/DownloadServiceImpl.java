@@ -19,4 +19,9 @@ public class DownloadServiceImpl implements DownloadService {
 	public List<PdfInfo> selectDownloadList() {
 		return pdfInfoMapper.selectAll();
 	}
+
+	@Override
+	public List<PdfInfo> selectDownloadListByType(String id) {
+		return pdfInfoMapper.selectDownloadListByType(id);
+	}
 }

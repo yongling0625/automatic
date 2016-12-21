@@ -4,10 +4,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.List;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -27,13 +25,20 @@ public class DownloadController {
 	public String selectNewsList(Model model){
 		List<PdfInfo> pdfList = downloadService.selectDownloadList();
 		model.addAttribute("pdfList", pdfList);
+		model.addAttribute("download_cate", "0");
 		return "download";
 	}
+	
 	@RequestMapping("/download/{id}")
 	public String selectDownloadById(@PathVariable String id,Model model,ModelMap map){
-//		News news = newsService.selectNewsById(id);
-//		model.addAttribute("news", news);
-		map.addAttribute("download_cate", id);
+		if("0".equals(id)){
+			List<PdfInfo> pdfList = downloadService.selectDownloadList();
+			model.addAttribute("pdfList", pdfList);
+		}else{
+			List<PdfInfo> pdfList = downloadService.selectDownloadListByType(id);
+			model.addAttribute("pdfList", pdfList);
+		}
+		model.addAttribute("download_cate", id);
 		return "download";
 	}
 	
