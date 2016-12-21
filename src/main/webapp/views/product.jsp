@@ -21,6 +21,11 @@
 	<jsp:include page="/common/header.jsp"></jsp:include>
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
+				<img class="img-responsive" src="static/images/prodbanner.png">
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-md-2">
 					<h1>PRODUCT</h1>
 					<ul class="nav nav-pills nav-stacked">
@@ -31,15 +36,6 @@
 					</ul>
 				</div>
 				<div class="col-md-10">
-					<ol class="breadcrumb">
-					    <li><a href="index">首页</a></li>
-					    <li class="active">
-						   <c:if test="${product_cate == 1 }"><a href="product/1">减速机</a></c:if>
-							<c:if test="${product_cate == 2 }"><a href="product/2">机械手臂</a></c:if>
-							<c:if test="${product_cate == 3 }"><a href="product/3">动力刀塔</a></c:if>
-							<c:if test="${product_cate == 4 }"><a href="product/4">齿轮齿条</a></c:if>
-					    </li>
-					</ol>
 					<c:forEach items="${productList }" var="product">
 						<div class="pull-left productDiv">
 							<a href="product/${product.categoryId }/${product.id}"><img class="img-thumbnail img-responsive" src="${product.imageAddress }" width="200" height="200"></a>

@@ -2,7 +2,7 @@
 <div class="footer">
     <div class="container-fiuld navbar-inverse" style="padding: 20px;">
         <div class="row footer-top text-center">
-            <div class="col-sm-2 col-lg-2">
+            <div class="col-sm-2 col-xs-2">
                <img class="img-circle img-responsive" alt="" src="static/images/logofooter.png">
             </div>
              <div class="col-sm-2 col-lg-2">
@@ -15,7 +15,7 @@
                     </li>
                 </ul>
             </div>
-             <div class="col-sm-2 col-lg-2">
+             <div class="col-sm-2 col-xs-2">
                 <ul class="list-unstyled">
                     <li>
                         <a href="">高精度减速机</a>
@@ -34,7 +34,7 @@
                     </li>
                 </ul>
             </div>
-             <div class="col-sm-2 col-lg-2">
+             <div class="col-sm-2 col-xs-2">
                 <ul class="list-unstyled">
 					<li><a href="product/1">机床行业应用案例</a></li>
 					<li><a href="product/1">印刷行业应用案例</a></li>
@@ -45,7 +45,7 @@
 					<li><a href="product/1">金属加工行业应用案例</a></li>
 				</ul>
             </div>
-             <div class="col-sm-2 col-lg-2">
+             <div class="col-sm-2 col-xs-2">
                 <ul class="list-unstyled">
                     <li>
                         <a href="">联系我们</a>
@@ -55,11 +55,11 @@
                     </li>
                 </ul>
             </div>
-             <div class="col-sm-2 col-lg-2">
+             <div class="col-sm-2 col-xs-2">
             </div>
         </div>
         <div class="row footer-bottom text-center">
-        	<div class="col-sm-12 col-lg-12">
+        	<div class="col-sm-12 col-xs-12">
                 <span>Copyright &copy;2016.GUANGYONG TECH</span>
         	</div>
         </div>

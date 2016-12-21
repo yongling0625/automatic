@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gy.automatic.mapper.ApplicationCaseMapper" >
+  <resultMap id="BaseResultMap" type="com.gy.automatic.model.ApplicationCase" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="application_case_category" property="applicationCaseCategory" jdbcType="INTEGER" />
+    <result column="application_case_name" property="applicationCaseName" jdbcType="VARCHAR" />
+    <result column="application_case_images" property="applicationCaseImages" jdbcType="VARCHAR" />
+    <result column="application_case_info" property="applicationCaseInfo" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

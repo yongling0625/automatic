@@ -19,7 +19,12 @@
 </head>
 <body>
 	<jsp:include page="/common/header.jsp"></jsp:include>
-	<div class="container" style="background-color: #ffffff;height: 600px;">
+	<div class="container minHeight" style="background-color: #ffffff;height: 600px;">
+		<div class="row">
+			<div class="col-md-12">
+			<img class="img-responsive" src="static/images/news_banner.jpg">
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-md-3">
 				<div class="panel panel-danger">

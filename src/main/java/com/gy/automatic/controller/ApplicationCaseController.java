@@ -9,20 +9,22 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.gy.automatic.model.ApplicationCase;
 import com.gy.automatic.model.Product;
+import com.gy.automatic.service.ApplicationCaseService;
 import com.gy.automatic.service.ProductService;
 @Controller
-@RequestMapping("/product")
+@RequestMapping("/appCase")
 public class ApplicationCaseController {
-//	@Autowired
-//	private ApplicationCaseService applicationCaseService;
-//	
-//	@RequestMapping(value="/{categoryId}",method=RequestMethod.GET)
-//	public String selectApplicationCaseList(@PathVariable Integer categoryId,ModelMap map){
-//		List<Product> productList = applicationCaseService.selectProductList(categoryId);
-//		map.addAttribute("productList", productList);
-//		map.addAttribute("product_cate", categoryId);
-//		return "product";
-//	}
+	@Autowired
+	private ApplicationCaseService applicationCaseService;
+	
+	@RequestMapping(value="/{categoryId}",method=RequestMethod.GET)
+	public String selectApplicationCaseList(@PathVariable Integer categoryId,ModelMap map){
+		ApplicationCase applicationCase= applicationCaseService.selectAppCaseByCategoryId(categoryId);
+		map.addAttribute("applicationCase", applicationCase);
+		map.addAttribute("appCase_cate", categoryId);
+		return "appCase";
+	}
 	
 }
