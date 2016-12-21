@@ -26,13 +26,13 @@
 	<li class="dropdown">
 	    <a class="dropdown-toggle" data-toggle="dropdown" href="#">应用案例</a>
 		<ul class="dropdown-menu" role="menu">
-			<li><a href="product/1">机床行业应用案例</a></li>
-			<li><a href="product/1">印刷行业应用案例</a></li>
-			<li><a href="product/1">包装行业应用案例</a></li>
-			<li><a href="product/1">医疗行业应用案例</a></li>
-			<li><a href="product/1">食品行业应用案例</a></li>
-			<li><a href="product/1">雕刻行业应用案例</a></li>
-			<li><a href="product/1">金属加工行业应用案例</a></li>
+			<li><a href="appCase/1">机床行业应用案例</a></li>
+			<li><a href="appCase/2">印刷行业应用案例</a></li>
+			<li><a href="appCase/3">包装行业应用案例</a></li>
+			<li><a href="appCase/4">医疗行业应用案例</a></li>
+			<li><a href="appCase/5">食品行业应用案例</a></li>
+			<li><a href="appCase/6">雕刻行业应用案例</a></li>
+			<li><a href="appCase/7">金属加工行业应用案例</a></li>
 		</ul>
 	</li>
 	<li><a href="contactUsMain">联系我们</a></li>
