@@ -42,15 +42,20 @@ public class DownloadController {
 		return "download";
 	}
 	
-	@RequestMapping("showImage/{pic_addr}")
-    public void showImage(HttpServletRequest re,HttpServletResponse response,@PathVariable String pic_addr){//pic_addr:图片路径(d:\\upload\\a.jpg)
-		pic_addr = pic_addr.replace("_","\\\\");
-		pic_addr = pic_addr.replace("=",".");
-		response.setContentType("image/*");
+	@RequestMapping("showImage/{addr}")
+    public void showImage(HttpServletRequest re,HttpServletResponse response,@PathVariable String addr){//pic_addr:图片路径(d:\\upload\\a.jpg)
+		addr = addr.replace("_","\\\\");
+		addr = addr.replace("=",".");
+		String endWith = addr.substring(addr.length()-4, addr.length());
+		if(".pdf".equals(endWith.toLowerCase())){
+			
+		}else{
+			response.setContentType("image/*");
+		}
         FileInputStream fis = null; 
         OutputStream os = null; 
         try {
-         fis = new FileInputStream(pic_addr);
+         fis = new FileInputStream(addr);
          os = response.getOutputStream();
             int count = 0;
             byte[] buffer = new byte[1024*8];
