@@ -37,6 +37,7 @@
 						</ul>
 					</div>
 				</div>
+				<jsp:include page="/common/contactUs.jsp"></jsp:include>
 			</div>
 			<c:forEach items="${pdfList}" var="pdf">
 				<div class="col-xs-4 col-md-4" style="padding:30px;height:200px;width:170px">

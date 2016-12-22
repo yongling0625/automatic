@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<jsp:include page="/common/header.jsp"></jsp:include>
-			<div >
+			<div class="container">
 				<img class="img-responsive" alt="" src="static/images/hezuo.jpg">
 			</div>
 			<div class="container">
@@ -37,35 +37,3 @@
 		<jsp:include page="/common/footer.jsp"></jsp:include>
 	</body>
 </html>
-     <!--  <a target=blank href=tencent://message/?uin=473730019&Site=qq号码说明&Menu=yes><img border="0" SRC=http://wpa.qq.com/pa?p=11:473730019:6 alt="有事Q我"></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:1" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:2" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:3" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:4" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:5" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:6" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:7" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:8" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:9" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:10" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:11" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:12" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:13" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:14" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:15" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:16" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:17" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:20" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:42" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:43" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:44" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:45" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:46" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:47" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:48" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:49" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:50" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:52" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
-        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=273858601&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:273858601:53" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> -->

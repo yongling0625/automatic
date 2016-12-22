@@ -19,59 +19,41 @@
 </head>
 <body>
 	<jsp:include page="/common/header.jsp"></jsp:include>
-	<div class="container" style="background-color: #ffffff">
+	<div class="container">
 		<div class="row">
 				<div class="col-md-12">
 				<img class="img-responsive" src="static/images/prodbanner.png">
 				</div>
 			</div>
 		<div class="row">
-			<div class="col-md-2">
-				<h1>PRODUCT</h1>
-				<ul class="nav nav-pills nav-stacked">
-					<li <c:if test="${product_cate == 1 }">class="active" </c:if>><a href="product/1">减速机</a></li>
-					<li <c:if test="${product_cate == 2 }">class="active" </c:if>><a href="product/2">机械手臂</a></li>
-					<li <c:if test="${product_cate == 3 }">class="active" </c:if>><a href="product/3">动力刀塔</a></li>
-					<li <c:if test="${product_cate == 4 }">class="active" </c:if>><a href="product/4">齿轮齿条</a></li>
-				</ul>
+			<div class="col-md-3">
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						<h3 class="panel-title">应用案例</h3>
+					</div>
+					<div class="panel-body">
+						<ul class="nav nav-pills nav-stacked">
+							<li <c:if test="${appCase_cate == 1 }">class="active" </c:if>><a href="appCase/1">机床行业应用案例</a></li>
+							<li <c:if test="${appCase_cate == 2 }">class="active" </c:if>><a href="appCase/2">印刷行业应用案例</a></li>
+							<li <c:if test="${appCase_cate == 3 }">class="active" </c:if>><a href="appCase/3">包装行业应用案例</a></li>
+							<li <c:if test="${appCase_cate == 4 }">class="active" </c:if>><a href="appCase/4">医疗行业应用案例</a></li>
+							<li <c:if test="${appCase_cate == 5 }">class="active" </c:if>><a href="appCase/5">食品行业应用案例</a></li>
+							<li <c:if test="${appCase_cate == 6 }">class="active" </c:if>><a href="appCase/6">雕刻行业应用案例</a></li>
+							<li <c:if test="${appCase_cate == 7 }">class="active" </c:if>><a href="appCase/7">金属加工行业应用案例</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-10">
+			<div class="col-md-9">
 				<div class="text-danger text-center">
-  						<h3><c:out value="${product.productName }"></c:out></h3>
-					</div>
+  						<h3><c:out value="${applicationCase.applicationCaseName }"></c:out></h3>
+				</div>
 					<br>
-				<div class="text-center">
-					<img src="${product.imageAddress }" width="300" height="300">
-				</div>
-				<br>
-				<div class="panel-group" id="accordion">
-					<div class="panel panel-info">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" 
-								   href="#collapseOne">
-									概要
-								</a>
-							</h4>
-						</div>
-						<div id="collapseOne" class="panel-collapse collapse">
-							<div class="panel-body">
-								輸出額定力矩<br>
-								T2N : 14 Nm - 2000 Nm<br>
-								Ratios:<br>
-								單節 :4 / 5 / 7 / 10<br>
-								雙節 :20 / 25 / 35 / 40 / 50 / 70 /<br>
-								100 / 16 / 21 / 31 / 61 /91 <br>
-								低背隙<br>
-								單節 : ≤1 arcmin / ≤3 arcmin / ≤5 arcmin <br>
-								雙節 : ≤3 arcmin / ≤5 arcmin / ≤7 arcmin <br>
-								高效率<br>
-								單節 : ≧ 97%<br>
-								雙節 : ≧ 94%<br>
-							</div>
-						</div>
+				<c:forEach items="${images }" var="image">
+					<div class="text-center">
+						<img src="${image }" width="300" height="300">
 					</div>
-				</div>
+				</c:forEach>
 			</div>
 		</div>
 	</div>
