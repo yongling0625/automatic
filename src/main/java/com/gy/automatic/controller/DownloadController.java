@@ -29,49 +29,53 @@ public class DownloadController {
 		return "download";
 	}
 	
-	@RequestMapping("/download/{id}")
-	public String selectDownloadById(@PathVariable String id,Model model,ModelMap map){
-		if("0".equals(id)){
+	@RequestMapping("/download/{type}")
+	public String selectDownloadById(@PathVariable String type,Model model,ModelMap map){
+		if("0".equals(type)){
 			List<PdfInfo> pdfList = downloadService.selectDownloadList();
 			model.addAttribute("pdfList", pdfList);
 		}else{
-			List<PdfInfo> pdfList = downloadService.selectDownloadListByType(id);
+			List<PdfInfo> pdfList = downloadService.selectDownloadListByType(type);
 			model.addAttribute("pdfList", pdfList);
 		}
-		model.addAttribute("download_cate", id);
+		model.addAttribute("download_cate", type);
 		return "download";
 	}
 	
-	@RequestMapping("showImage/{addr}")
-    public void showImage(HttpServletRequest re,HttpServletResponse response,@PathVariable String addr){//pic_addr:图片路径(d:\\upload\\a.jpg)
-		addr = addr.replace("_","\\\\");
-		addr = addr.replace("=",".");
-		String endWith = addr.substring(addr.length()-4, addr.length());
-		if(".pdf".equals(endWith.toLowerCase())){
-			
-		}else{
-			response.setContentType("image/*");
-		}
-        FileInputStream fis = null; 
-        OutputStream os = null; 
-        try {
-         fis = new FileInputStream(addr);
-         os = response.getOutputStream();
-            int count = 0;
-            byte[] buffer = new byte[1024*8];
-            while ( (count = fis.read(buffer)) != -1 ){
-             os.write(buffer, 0, count);
-             os.flush();
-            }
-        }catch(Exception e){
-         e.printStackTrace();
-        }finally {
-            try {
-				fis.close();
-				os.close();
-			} catch (IOException e) {
-			e.printStackTrace();
-			}
-        }
-		}
+//	@RequestMapping("showImageOrDownloadPdf/{id}/{type}")
+//    public void showImageOrDownloadPdf(HttpServletRequest request,HttpServletResponse response,@PathVariable String id,@PathVariable String type){//pic_addr:图片路径(d:\\upload\\a.jpg)
+//		List<PdfInfo> pdfList = downloadService.selectDownloadListById(id);
+//		String endWith = addr.substring(addr.length()-4, addr.length());
+//        //1.设置文件ContentType类型，这样设置，会自动判断下载文件类型  
+//		response.setContentType("multipart/form-data"); 
+//		if(".pdf".equals(endWith.toLowerCase())){
+////			0response.setContentType("application/pdf");
+//			String[] temp = addr.split("\\\\");
+//			String pdfName = temp[temp.length-1];
+//			response.setHeader("content-disposition", "attachment; filename="+pdfName);
+////		}else{
+////			response.setContentType("image/*");
+//		}
+//        FileInputStream fis = null; 
+//        OutputStream os = null; 
+//        try {
+//         fis = new FileInputStream(addr);
+//         os = response.getOutputStream();
+//            int count = 0;
+//            byte[] buffer = new byte[1024*8];
+//            while ( (count = fis.read(buffer)) != -1 ){
+//             os.write(buffer, 0, count);
+//             os.flush();
+//            }
+//        }catch(Exception e){
+//         e.printStackTrace();
+//        }finally {
+//            try {
+//				fis.close();
+//				os.close();
+//			} catch (IOException e) {
+//			e.printStackTrace();
+//			}
+//        }
+//		}
 	}
