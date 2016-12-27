@@ -2,13 +2,13 @@
 <style type="text/css">
 p{text-indent:0em}
 </style>
-<div class="alert alert-warning text-left" style="height:100%;width:280px;padding:10px;">
-	<p class="text-success">客户服务热线：400-867-5758</p>
-	<p>北京科恩众和工业控制技术有限公司</p>
-	<p>地址：北京市海淀区苏州街75号鼎钧大厦B座408 </p>
-	<p>邮编：100080</p>
+<div class="table table-bordered text-left" style="height:100%;width:325px;padding:10px;">
+	<p class="text-success">客户服务热线：0316-5176208</p>
+	<p>廊坊市广用自动化设备有限公司</p>
+	<p>地址：廊坊市广阳区春和花园南区8-2-202</p>
+	<p>邮编：065000</p>
 	<p>电话：0316-5176208</p>
-	<p>传真：010-62658139 &nbsp;&nbsp;</p>
-	<p>手机：13910929353</p>
-	<p>E-MAIL：<a href="mailto:sales-bj@kerntech.com.cn">sales-bj@kerntech.com.cn</a></p>
+	<p>手机：18103122872</p>
+	<p>E-MAIL：<a href="mailto:lfguangyong@163.com">lfguangyong@163.com</a></p>
+	<p>网址：<a href="http://www.kerntech.com.cn">www.kerntech.com.cn</a></p>
 </div>
