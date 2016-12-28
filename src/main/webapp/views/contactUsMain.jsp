@@ -22,8 +22,38 @@
 	    html,body{margin:0;padding:0;}
 	    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
 	    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+	    input{width:100%;}
 	</style>
 	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+	<script type="text/javascript" src="src/main/webapp/static/jQuery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		function checkInfo(){
+			if($("#corporateName").val().trim()==""){
+				alert("公司名称必须填写！");
+				return false;
+			}
+			if($("#contacts").val().trim()==""){
+				alert("联系人必须填写！");
+				return false;
+			}
+			if($("#country").val().trim()==""){
+				alert("国家必须填写！");
+				return false;
+			}
+			if($("#email").val().trim()==""){
+				alert("Email必须填写！");
+				return false;
+			}
+			if($("#tel").val().trim()==""){
+				alert("公司电话必须填写！");
+				return false;
+			}
+			if($("#problemDescription").val().trim()==""){
+				alert("问题描述必须填写！");
+				return false;
+			}
+		}
+	</script>
 	</head>
 	<body>
 		<jsp:include page="/common/header.jsp"></jsp:include>
@@ -53,53 +83,65 @@
 	            </div>
 			</div>
 			<div style="float:left;margin-left:20px;margin-top:-25px"  class="clear">
-				<h3 class="text-left text-success">联系我们</h3>
-				<table class="table table-bordered text-left"style="margin-top:-10px;width:700px">
+				<h3 class="text-left text-success">联系我们&nbsp;&nbsp;&nbsp;<font size="3">标注<font color="red">*</font>有的为必填项</font></h3>
+			<form name="submit" id="submit" action="contactUs" onsubmit = "return checkInfo();" method="post">
+				<table class="table table-bordered text-left"style="margin-top:-7px;width:700px">
 					<tr>
-						<td>公司名称</td>
+						<td><font color="red">*</font>公司名称:</td>
 						<td><input id="corporateName" name="corporateName" value=""></td>
 					</tr>
 					<tr>
-						<td>公司地址</td>
-						<td><input style="width:500px" id="address" name="address" value=""></td>
+						<td>公司地址:</td>
+						<td colspan="3"><input  id="address" name="address" value=""></td>
 					</tr>
 					<tr>
-						<td>城市</td>
-						<td><input id="city" name="city" value=""></td>
-					</tr>
-					<tr>
-						<td>国家</td>
-						<td><input id="country" name="country" value=""></td>
-					</tr>
-					<tr>
-						<td>联系人</td>
+						<td><font color="red">*</font>联系人:</td>
 						<td><input id="contacts" name="contacts" value=""></td>
 					</tr>
 					<tr>
-						<td>公司网页</td>
-						<td><input id="companyWebsite" name="companyWebsite" value=""></td>
+						<td>城市:</td>
+						<td><input id="city" name="city" value=""></td>
+						<td><font color="red">*</font>国家:</td>
+						<td><input id="country" name="country" value=""></td>
 					</tr>
 					<tr>
-						<td>Email </td>
+						<td>公司网页:</td>
+						<td><input id="companyWebsite" name="companyWebsite" value=""></td>
+						<td><font color="red">*</font>Email:</td>
 						<td><input id="email " name="email" value=""></td>
 					</tr>
 					<tr>
-						<td>公司名称</td>
-						<td><input id="corporateName" name="corporateName" value=""></td>
-					</tr>
-					<tr>
-						<td>公司电话</td>
+						<td><font color="red">*</font>公司电话:</td>
 						<td><input id="tel" name="tel" value=""></td>
-					</tr>
-					<tr>
-						<td>公司名称</td>
-						<td><input id="corporateName" name="corporateName" value=""></td>
-					</tr>
-					<tr>
-						<td>公司传真</td>
+						<td>公司传真:</td>
 						<td><input id="fax" name="fax" value=""></td>
 					</tr>
+					<tr>
+						<td colspan="4" class="text-center">有关题（可以多选）</td>
+					</tr>
+					<tr>
+						<td colspan="4" class="text-center">
+							<input name="problem" style="width:30px;" type="checkbox" id="problem" value="技术" />技术
+ 							<input name="problem" style="width:30px;" type="checkbox" id="problem" value="目录索取" />目录索取
+ 							<input name="problem" style="width:30px;" type="checkbox" id="problem" value="产品资讯" />产品资讯
+ 							<input name="problem" style="width:30px;" type="checkbox" id="problem" value="其他" />其他
+						</td>					
+					</tr>
+					<tr>
+						<td colspan="4" class="text-center"><font color="red">*</font>问题描述</td>
+					</tr>
+					<tr>
+						<td colspan="4" class="text-center">
+							<input name="problemDescription" id="problemDescription" style="width:500px;height:100px;" value="" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4" class="text-center">
+							 <input type="submit" value="提交" style="width:100px;height:30px;" class="btn-primary"/>
+						</td>
+					</tr>
 				</table>
+			</form>
 			</div>
        	 </div>
        <h4 class="text-right text-success">GUANGYONG TECH&nbsp;——&nbsp;核心技术，然自内心！</h4>
