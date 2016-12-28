@@ -76,7 +76,7 @@
 						<p>电话：0316-5176208</p>
 						<p>手机：18103122872</p>
 						<p>E-MAIL：<a href="mailto:lfguangyong@163.com">lfguangyong@163.com</a></p>
-						<p>网址：<a href="http://www.kerntech.com.cn">www.kerntech.com.cn</a></p>
+						<p>网址：<a href="http://www.gy-peak.cn">www.gy-peak.cn</a></p>
 						<!--百度地图容器-->
 	 					<div style="width:350px;height:250px;border:#ccc solid 1px;" id="dituContent"></div>
 					</div>
@@ -117,7 +117,7 @@
 						<td><input id="fax" name="fax" value=""></td>
 					</tr>
 					<tr>
-						<td colspan="4" class="text-center">有关题（可以多选）</td>
+						<td colspan="4" class="text-center">有关问题（可以多选）</td>
 					</tr>
 					<tr>
 						<td colspan="4" class="text-center">

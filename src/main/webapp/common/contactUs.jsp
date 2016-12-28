@@ -10,5 +10,5 @@ p{text-indent:0em}
 	<p>电话：0316-5176208</p>
 	<p>手机：18103122872</p>
 	<p>E-MAIL：<a href="mailto:lfguangyong@163.com">lfguangyong@163.com</a></p>
-	<p>网址：<a href="http://www.kerntech.com.cn">www.kerntech.com.cn</a></p>
+	<p>网址：<a href="http://www.gy-peak.cn">www.gy-peak.cn</a></p>
 </div>
