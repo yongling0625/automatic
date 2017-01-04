@@ -56,18 +56,33 @@
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse">
 							<div class="panel-body">
-								輸出額定力矩<br>
-								T2N : 14 Nm - 2000 Nm<br>
-								Ratios:<br>
-								單節 :4 / 5 / 7 / 10<br>
-								雙節 :20 / 25 / 35 / 40 / 50 / 70 /<br>
-								100 / 16 / 21 / 31 / 61 /91 <br>
-								低背隙<br>
-								單節 : ≤1 arcmin / ≤3 arcmin / ≤5 arcmin <br>
-								雙節 : ≤3 arcmin / ≤5 arcmin / ≤7 arcmin <br>
-								高效率<br>
-								單節 : ≧ 97%<br>
-								雙節 : ≧ 94%<br>
+								<c:out value="${product.overview }"></c:out>
+							</div>
+						</div>
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" 
+								   href="#collapseTwo">
+									核心参数
+								</a>
+							</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse">
+							<div class="panel-body">
+								<c:out value="${product.coreParameter }"></c:out>
+							</div>
+						</div>
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" 
+								   href="#collapseThree">
+									详情参数
+								</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse">
+							<div class="panel-body">
+								<a href=""></a>
 							</div>
 						</div>
 					</div>
