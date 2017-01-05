@@ -8,7 +8,7 @@
              <div class="col-sm-2 col-lg-2">
                 <ul class="list-unstyled">
                     <li>
-                        <a title="关于我们" href="">关于我们</a>
+                        <a title="关于我们" href="about">关于我们</a>
                     </li>
                     <li>
                         <a href="about">公司介绍</a>
@@ -18,40 +18,40 @@
              <div class="col-sm-2 col-xs-2">
                 <ul class="list-unstyled">
                     <li>
-                        <a href="">高精度减速机</a>
+                        <a href="product/1">高精度减速机</a>
                     </li>
                     <li>
-                        <a href="">机械手臂</a>
+                        <a href="product/2">机械手臂</a>
                     </li>
                     <li>
-                        <a href="">动力刀塔</a>
+                        <a href="product/3">动力刀塔</a>
                     </li>
                     <li>
-                        <a href="">齿轮齿条</a>
+                        <a href="product/4">齿轮齿条</a>
                     </li>
                     <li>
-                        <a href="">扭力扳手</a>
+                        <a href="product/5">扭力扳手</a>
                     </li>
                 </ul>
             </div>
              <div class="col-sm-2 col-xs-2">
                 <ul class="list-unstyled">
-					<li><a href="product/1">机床行业应用案例</a></li>
-					<li><a href="product/1">印刷行业应用案例</a></li>
-					<li><a href="product/1">包装行业应用案例</a></li>
-					<li><a href="product/1">医疗行业应用案例</a></li>
-					<li><a href="product/1">食品行业应用案例</a></li>
-					<li><a href="product/1">雕刻行业应用案例</a></li>
-					<li><a href="product/1">金属加工行业应用案例</a></li>
+					<li><a href="appCase/1">机床行业应用案例</a></li>
+					<li><a href="appCase/2">印刷行业应用案例</a></li>
+					<li><a href="appCase/3">包装行业应用案例</a></li>
+					<li><a href="appCase/4">医疗行业应用案例</a></li>
+					<li><a href="appCase/5">食品行业应用案例</a></li>
+					<li><a href="appCase/6">雕刻行业应用案例</a></li>
+					<li><a href="appCase/7">金属加工行业应用案例</a></li>
 				</ul>
             </div>
              <div class="col-sm-2 col-xs-2">
                 <ul class="list-unstyled">
                     <li>
-                        <a href="">联系我们</a>
+                        <a href="contactUsMain">联系我们</a>
                     </li>
                     <li>
-                        <a href="">在线客服</a>
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3285443540&site=qq&menu=yes">在线客服</a>
                     </li>
                 </ul>
             </div>

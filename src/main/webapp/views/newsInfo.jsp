@@ -33,6 +33,7 @@
 					</div>
 					<div class="panel-body"><a href="news">企业公告</a></div>
 				</div>
+				<jsp:include page="/common/contactUs.jsp"></jsp:include>
 			</div>
 			<div class="col-md-9">
 				<div class="panel panel-default">

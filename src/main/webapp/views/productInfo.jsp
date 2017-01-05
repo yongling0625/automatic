@@ -33,6 +33,7 @@
 					<li <c:if test="${product_cate == 2 }">class="active" </c:if>><a href="product/2">机械手臂</a></li>
 					<li <c:if test="${product_cate == 3 }">class="active" </c:if>><a href="product/3">动力刀塔</a></li>
 					<li <c:if test="${product_cate == 4 }">class="active" </c:if>><a href="product/4">齿轮齿条</a></li>
+					<li <c:if test="${product_cate == 5 }">class="active" </c:if>><a href="product/5">扭力扳手</a></li>
 				</ul>
 			</div>
 			<div class="col-md-10">

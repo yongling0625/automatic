@@ -43,6 +43,7 @@
 						</ul>
 					</div>
 				</div>
+				<jsp:include page="/common/contactUs.jsp"></jsp:include>
 			</div>
 			<div class="col-md-9">
 				<div class="text-danger text-center">

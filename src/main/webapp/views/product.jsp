@@ -26,16 +26,24 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-2">
-					<h1>PRODUCT</h1>
-					<ul class="nav nav-pills nav-stacked">
-						<li <c:if test="${product_cate == 1 }">class="active" </c:if>><a href="product/1">减速机</a></li>
-						<li <c:if test="${product_cate == 2 }">class="active" </c:if>><a href="product/2">机械手臂</a></li>
-						<li <c:if test="${product_cate == 3 }">class="active" </c:if>><a href="product/3">动力刀塔</a></li>
-						<li <c:if test="${product_cate == 4 }">class="active" </c:if>><a href="product/4">齿轮齿条</a></li>
-					</ul>
+				<div class="col-md-3">
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							<h3 class="panel-title">PRODUCT</h3>
+						</div>
+						<div class="panel-body">
+							<ul class="nav nav-pills nav-stacked">
+								<li <c:if test="${product_cate == 1 }">class="active" </c:if>><a href="product/1">减速机</a></li>
+								<li <c:if test="${product_cate == 2 }">class="active" </c:if>><a href="product/2">机械手臂</a></li>
+								<li <c:if test="${product_cate == 3 }">class="active" </c:if>><a href="product/3">动力刀塔</a></li>
+								<li <c:if test="${product_cate == 4 }">class="active" </c:if>><a href="product/4">齿轮齿条</a></li>
+								<li <c:if test="${product_cate == 5 }">class="active" </c:if>><a href="product/5">扭力扳手</a></li>
+							</ul>
+						</div>
+					</div>
+					<jsp:include page="/common/contactUs.jsp"></jsp:include>
 				</div>
-				<div class="col-md-10">
+				<div class="col-md-9">
 					<c:forEach items="${productList }" var="product">
 						<div class="pull-left productDiv">
 							<a href="product/${product.categoryId }/${product.id}"><img class="img-thumbnail img-responsive" src="${product.imageAddress }" width="200" height="200"></a>
