@@ -14,7 +14,7 @@
 	  <meta charset="UTF-8">
 	  <meta name="renderer" content="webkit"/>
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	  <title>Document</title>
+	  <title>联系我们</title>
 	<link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="static/base/base.css">
 	<!--引用百度地图API-->

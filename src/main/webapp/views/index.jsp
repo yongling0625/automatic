@@ -14,7 +14,7 @@
 <meta name="renderer" content="webkit" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Document</title>
+<title>广用首页</title>
 <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="static/base/base.css">
 </head>
