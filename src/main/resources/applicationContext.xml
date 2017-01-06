@@ -90,7 +90,7 @@
 		</tx:attributes>
 	</tx:advice>
 	<!-- 配置切面 -->
-	<aop:config>
+	<aop:config>   
 		<aop:pointcut id="interceptorPointCuts" expression="execution(* *..*Service.*(..))" />
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="interceptorPointCuts" />
 	</aop:config>

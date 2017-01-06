@@ -14,6 +14,7 @@
 <meta name="renderer" content="webkit" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <title>产品中心</title>
+<link rel="shortcut icon" href="static/images/favicon.ico" />
 <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="static/base/base.css">
 </head>
