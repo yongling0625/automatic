@@ -9,11 +9,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>下载中心</title>
 <base href="<%=basePath%>">
 <meta charset="UTF-8">
 <meta name="renderer" content="webkit" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<title>下载中心</title>
+<meta name="keywords" content="广用,减速机,高精密,精锐,台湾精锐,机械手,注塑机,齿轮,齿条,动力,刀塔,单伺服,扭力扳手,可调式,倍力器,机械手臂,动力刀塔,齿轮箱,APEX,专业自动化,自动化,伺服减速器,行星,行星减速机,低背隙,精密,配件,专业的自动化设备提供商">
 <link rel="shortcut icon" href="static/images/favicon.ico" />
 <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="static/base/base.css">
@@ -42,7 +43,7 @@
 			</div>
 			<c:forEach items="${pdfList}" var="pdf">
 				<div class="col-xs-4 col-md-4" style="padding:30px;height:200px;width:170px">
-					<a href="${pdf.pdfAddress}" download><img class="img-thumbnail img-responsive" style="height:130px;width:100px" alt="${pdf.title}" src="${pdf.pictureAddress}"></a>
+					<a href="${pdf.pdfAddress}" target="_blank"><img class="img-thumbnail img-responsive" style="height:130px;width:100px" alt="${pdf.title}" src="${pdf.pictureAddress}"></a>
 					<div class="text-warning text-center" style="height:130px;width:100px"><a href="${pdf.pdfAddress}" download><strong> ${pdf.title}</strong></a></div>
 				</div>
 			</c:forEach>

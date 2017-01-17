@@ -1,9 +1,12 @@
 package com.gy.automatic.service;
 
+import java.util.List;
+
 import com.gy.automatic.model.ApplicationCase;
 
 public interface ApplicationCaseService {
 
-	ApplicationCase selectAppCaseByCategoryId(Integer categoryId);
+
+	List<ApplicationCase> selectAppCaseListByCategoryId(Integer categoryId);
 
 }

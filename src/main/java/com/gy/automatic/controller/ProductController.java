@@ -28,6 +28,8 @@ public class ProductController {
 	@RequestMapping(value="/{categoryId}/{productId}")
 	public String selectProductListById(@PathVariable Integer productId,@PathVariable Integer categoryId,ModelMap map){
 		Product product = productService.selectProductById(productId);
+		product.setOverview(product.getOverview().replaceAll("<br>", "\r\n"));
+		product.setCoreParameter(product.getCoreParameter().replaceAll("<br>", "\r\n"));
 		map.addAttribute("product", product);
 		map.addAttribute("product_cate", categoryId);
 		return "productInfo";

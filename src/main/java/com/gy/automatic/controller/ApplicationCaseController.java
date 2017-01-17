@@ -1,5 +1,7 @@
 package com.gy.automatic.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,13 +19,8 @@ public class ApplicationCaseController {
 	
 	@RequestMapping(value="/{categoryId}",method=RequestMethod.GET)
 	public String selectApplicationCaseList(@PathVariable Integer categoryId,Model map){
-		ApplicationCase applicationCase= applicationCaseService.selectAppCaseByCategoryId(categoryId);
-		if(applicationCase != null){
-			String[] images = applicationCase.getApplicationCaseImages().split(",");
-			map.addAttribute("applicationCase", applicationCase);
-			map.addAttribute("appCase_cate", categoryId);
-			map.addAttribute("images", images);
-		}
+		List<ApplicationCase> applicationCaseList= applicationCaseService.selectAppCaseListByCategoryId(categoryId);
+		map.addAttribute("applicationCaseList", applicationCaseList);
 		return "appCase";
 	}
 	

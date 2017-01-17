@@ -1,5 +1,6 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://"
@@ -9,11 +10,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>应用案例</title>
 <base href="<%=basePath%>">
 <meta charset="UTF-8">
 <meta name="renderer" content="webkit" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<title>应用案例</title>
+<meta name="keywords" content="广用,减速机,高精密,精锐,台湾精锐,机械手,注塑机,齿轮,齿条,动力,刀塔,单伺服,扭力扳手,可调式,倍力器,机械手臂,动力刀塔,齿轮箱,APEX,专业自动化,自动化,伺服减速器,行星,行星减速机,低背隙,精密,配件,专业的自动化设备提供商">
 <link rel="shortcut icon" href="static/images/favicon.ico" />
 <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="static/base/base.css">
@@ -47,15 +49,18 @@
 				<jsp:include page="/common/contactUs.jsp"></jsp:include>
 			</div>
 			<div class="col-md-9">
+			<c:forEach items="${applicationCaseList }" var="appCase">
 				<div class="text-danger text-center">
-  						<h3><c:out value="${applicationCase.applicationCaseName }"></c:out></h3>
+  						<h3><c:out value="${appCase.applicationCaseName }"></c:out></h3>
 				</div>
 					<br>
-				<c:forEach items="${images }" var="image">
+				<c:forEach items="${fn:split(appCase.applicationCaseImages,',')}" var="image">
 					<div class="text-center">
-						<img src="${image }" width="300" height="300">
+						<img src="${image }" width="400" height="400">
 					</div>
+					<br>
 				</c:forEach>
+			</c:forEach>
 			</div>
 		</div>
 	</div>

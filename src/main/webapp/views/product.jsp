@@ -9,11 +9,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>产品中心</title>
 <base href="<%=basePath%>">
 <meta charset="UTF-8">
 <meta name="renderer" content="webkit" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<title>产品中心</title>
+<meta name="keywords" content="广用,减速机,高精密,精锐,台湾精锐,机械手,注塑机,齿轮,齿条,动力,刀塔,单伺服,扭力扳手,可调式,倍力器,机械手臂,动力刀塔,齿轮箱,APEX,专业自动化,自动化,伺服减速器,行星,行星减速机,低背隙,精密,配件,专业的自动化设备提供商">
 <link rel="shortcut icon" href="static/images/favicon.ico" />
 <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="static/base/base.css">
@@ -47,7 +48,7 @@
 				<div class="col-md-9">
 					<c:forEach items="${productList }" var="product">
 						<div class="pull-left productDiv">
-							<a href="product/${product.categoryId }/${product.id}"><img class="img-thumbnail img-responsive" src="${product.imageAddress }" width="200" height="200"></a>
+							<a href="product/${product.categoryId }/${product.id}"><img class="img-thumbnail img-responsive" style="width: 200px;height: 200px;" src="${product.imageAddress }"></a>
 							<div class="bg-primary text-center">
      							<strong><c:out value="${product.productName }"></c:out></strong>
    							</div>

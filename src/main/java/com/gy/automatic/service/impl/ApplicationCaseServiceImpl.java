@@ -1,5 +1,7 @@
 package com.gy.automatic.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,10 +14,10 @@ public class ApplicationCaseServiceImpl implements ApplicationCaseService {
 	private ApplicationCaseMapper applicationCaseMapper;
 
 	@Override
-	public ApplicationCase selectAppCaseByCategoryId(Integer categoryId) {
+	public List<ApplicationCase> selectAppCaseListByCategoryId(Integer categoryId) {
 		ApplicationCase ac = new ApplicationCase();
 		ac.setApplicationCaseCategory(categoryId);
-		return applicationCaseMapper.selectOne(ac);
+		return applicationCaseMapper.select(ac);
 	}
 
 }
