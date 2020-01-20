@@ -60,7 +60,7 @@
         </div>
         <div class="row footer-bottom text-center">
         	<div class="col-sm-12 col-xs-12">
-                <span>Copyright &copy;2017.GUANGYONG TECH &nbsp;&nbsp;冀ICP备17001268号</span>
+                <span>Copyright &copy;2017.GUANGYONG TECH &nbsp;&nbsp;<a target="_blank" href="http://www.beian.miit.gov.cn">冀ICP备17001268号</a></span>
         	</div>
         </div>
     </div>
